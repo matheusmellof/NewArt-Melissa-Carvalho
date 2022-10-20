@@ -1,9 +1,3 @@
-/*
-Cores
-#F9B80C amarelo 
-#9D3BE1 roxin
-*/
-
 :root {
 	--gap: 30px;
 	--purple-color: #9d3be1;
@@ -58,7 +52,7 @@ div.sem-line {
 	border: none;
 }
 .one-bg {
-	background-image: url(../images/logo-fundo.jpg);
+	background-image: url(../images/logo.jpg);
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
