@@ -173,6 +173,9 @@ div.sem-line {
 	max-height: 25rem;
 	overflow: hidden;
 }
+div.img-port img:hover {
+	border: 0.5rem solid var(--yellow-color);
+}
 .img-port img {
 	width: 100%;
 }
