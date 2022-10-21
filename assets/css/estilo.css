@@ -191,9 +191,9 @@ div.sem-line {
 
 /* Área Rodapé */
 #rodape {
-	height: 100%;
-	line-height: 100%;
-	padding-left: 20px;
+	height: 12.5rem;
+	line-height: 12.5rem;
+	padding-left: 2rem;
 	color: var(--white-color);
 	background-color: var(--darkest-purple-color);
 }
