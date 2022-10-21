@@ -66,4 +66,7 @@
     .menu-spacing {
         display: none;
     }
+    #rodape {
+        min-height: 12.5rem;
+    }
 }
