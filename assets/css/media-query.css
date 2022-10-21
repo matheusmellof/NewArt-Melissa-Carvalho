@@ -1,4 +1,7 @@
 @media (max-width: 800px) {
+    .main-content {
+        min-width: 36rem;
+    }
     .grid-perfil, .grid-port {
         grid-template-columns: 1fr;
     }
@@ -67,6 +70,6 @@
         display: none;
     }
     #rodape {
-        min-height: 12.5rem;
+        height: 100%;
     }
 }
