@@ -195,9 +195,7 @@ div.img-port img:hover {
 }
 
 #rodape {
-	height: 12.5rem;
-	line-height: 12.5rem;
-	padding-left: 2rem;
+	padding: 2rem;
 	color: var(--white-color);
 	background-color: var(--darkest-purple-color);
 }
