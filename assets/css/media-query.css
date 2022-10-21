@@ -1,12 +1,19 @@
 @media (max-width: 800px) {
     .main-content {
-        min-width: 36rem;
+        min-width: 25rem;
+    }
+    .one-bg {
+        background-image: url(../images/logo-sm.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .grid-perfil, .grid-port {
         grid-template-columns: 1fr;
     }
     .grid-perfil {
         grid-template-rows: 1fr;
+        grid-template-rows: 2fr;
     }
     .img-port {
         width: 100%;
@@ -15,6 +22,13 @@
     }
     .img-port img {
         width: 100%;
+    }
+    .grid-perfil .foto-perfil {
+        height: 30rem;
+        background-image: url(../images/perfil-melissa-2.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .box1 {
         grid-column-start: 1;
