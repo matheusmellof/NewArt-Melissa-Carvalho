@@ -52,20 +52,23 @@ div.sem-line {
 	border: none;
 }
 .one-bg {
-	background-image: url(../images/logo.jpg);
+	background-image: url(../images/log.jpg);
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.purple-bg {
+.purple-bg-menu {
 	background-color: var(--purple-color);
 	color: var(--yellow-color);
+}
+.purple-bg {
+	background-color: rgba(157, 59, 225,0.5);
+	color: var(--black-color);
 }
 .main-content {
 	max-width: 120rem;
 	margin: 0 auto;
 	padding: 10rem var(--gap);
-	border-bottom: 0.1rem solid rgba(0,0, 0, 0.3);
 }
 .section-full {
 	min-height: 100vh;
@@ -169,6 +172,20 @@ div.sem-line {
 	overflow: hidden;
 }
 .img-port img {
+	width: 100%;
+}
+.grid-social {
+	display: grid;
+	justify-content: space-around;
+	align-items: center;
+	width: 30rem;
+	grid-template-columns: repeat(3,0.5fr);
+	grid-template-rows: 1fr;
+	gap: var(--gap);
+	margin: 0 auto;
+	margin-top: 6rem;
+}
+.icon-social img {
 	width: 100%;
 }
 
